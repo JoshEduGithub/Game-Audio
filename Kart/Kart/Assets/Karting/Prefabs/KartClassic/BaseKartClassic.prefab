@@ -503,6 +503,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5141113696693541247, guid: 129aa9342650245cbadf61f8391f3878,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141113696693541247, guid: 129aa9342650245cbadf61f8391f3878,
+        type: 3}
       propertyPath: MaxDistance
       value: 5
       objectReference: {fileID: 0}
@@ -578,6 +583,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5141113698253163166, guid: 129aa9342650245cbadf61f8391f3878,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141113698253163166, guid: 129aa9342650245cbadf61f8391f3878,
+        type: 3}
       propertyPath: MaxDistance
       value: 5
       objectReference: {fileID: 0}
@@ -585,6 +595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141113698274104286, guid: 129aa9342650245cbadf61f8391f3878,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5141113698274104286, guid: 129aa9342650245cbadf61f8391f3878,
         type: 3}
@@ -598,8 +613,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7916209065845860529, guid: 129aa9342650245cbadf61f8391f3878,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916209065845860529, guid: 129aa9342650245cbadf61f8391f3878,
+        type: 3}
       propertyPath: MaxDistance
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548943313072018857, guid: 129aa9342650245cbadf61f8391f3878,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8548943313072018857, guid: 129aa9342650245cbadf61f8391f3878,
         type: 3}

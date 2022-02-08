@@ -9230,6 +9230,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1284808343}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &984090656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6691645748356329554, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
+    type: 3}
+  m_PrefabInstance: {fileID: 867987756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &984090660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984090656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1001 &996772129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11292,6 +11312,7 @@ GameObject:
   - component: {fileID: 1207105316}
   - component: {fileID: 1207105315}
   - component: {fileID: 1207105317}
+  - component: {fileID: 1207105320}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -11405,7 +11426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 1910917296}
   ListenerNumber: -1
 --- !u!20 &1207105318
 Camera:
@@ -11464,6 +11485,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 4.38, y: 0, z: 0}
+--- !u!81 &1207105320
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207105314}
+  m_Enabled: 1
 --- !u!1001 &1212969534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12226,6 +12255,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 403965902444250510, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: maxRPM
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 403965902444250510, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: minRPM
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602691, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_Name
@@ -12287,11 +12326,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 403965903139369922, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 403965903490506787, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 403965903110040194, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 3395658345980596717, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 3774080072296721653, guid: 19954de30401f73428254541a9ad156e, type: 3}
+    - {fileID: 403965903139369922, guid: 19954de30401f73428254541a9ad156e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 19954de30401f73428254541a9ad156e, type: 3}
 --- !u!4 &1304724376 stripped
 Transform:
@@ -13943,42 +13982,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1170209342}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1431900189 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3761431495673512404, guid: 6d9796d84c9e5a54fb4e014484945a46,
-    type: 3}
-  m_PrefabInstance: {fileID: 974197868}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1431900193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431900189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: 1958460028
-      Data2: 1217165032
-      Data3: -261621348
-      Data4: -48242944
-    Path: event:/Music/Level 01
-  Event: 
-  PlayEvent: 7
-  StopEvent: 4
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1440797752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15980,6 +15983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1687723348}
   - component: {fileID: 1687723347}
+  - component: {fileID: 1687723349}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -16002,22 +16006,20 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1284853857
-      Data2: 1279602452
-      Data3: 1660743820
-      Data4: -1969025494
-    Path: event:/Music/Radio Station
+      Data1: -1147629186
+      Data2: 1106302555
+      Data3: 130402976
+      Data4: 239065686
+    Path: event:/Ambience/City
   Event: 
-  PlayEvent: 11
-  StopEvent: 12
-  AllowFadeout: 0
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params:
-  - Name: Spatializer
-    Value: 0
-  - Name: Freq
-    Value: 0
+  - Name: Traffic
+    Value: 0.3
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -16029,12 +16031,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687723346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.2, y: 0, z: 0}
+  m_LocalPosition: {x: 11.1, y: 0, z: 0}
   m_LocalScale: {x: 0.6143059, y: 0.6143059, z: 2.4437087}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687723349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687723346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1040683112
+      Data2: 1315700926
+      Data3: -845462093
+      Data4: 270081402
+    Path: event:/Music/Kart Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1691938355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16690,6 +16722,11 @@ PrefabInstance:
       propertyPath: CollectVFX
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6972624742742338666, guid: 6d9796d84c9e5a54fb4e014484945a46,
+        type: 3}
+      propertyPath: spawnPrefabOnPickup
+      value: 
+      objectReference: {fileID: 77662692}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
 --- !u!1001 &1715571282
@@ -17366,6 +17403,44 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1227090948}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1806730685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 403965902444250509, guid: 19954de30401f73428254541a9ad156e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304724375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806730688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806730685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2057693425
+      Data2: 1120308930
+      Data3: 1091724724
+      Data4: 1436550054
+    Path: event:/Vehicles/Ride-on Mower
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: RPM
+    Value: 1000
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1811561753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19720,5 +19795,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 7847472506503830051, guid: 5cdf1b2b8a98d6e40a85d1cde3907099,
+        type: 3}
+      propertyPath: CollectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 179db782f1044bc48b9dff5d487c4bef, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cdf1b2b8a98d6e40a85d1cde3907099, type: 3}

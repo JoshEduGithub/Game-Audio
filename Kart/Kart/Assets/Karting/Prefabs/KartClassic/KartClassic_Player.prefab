@@ -152,17 +152,17 @@ PrefabInstance:
     - target: {fileID: 335920255713412125, guid: cba6236a3ca88a54081cc989c4f0c08a,
         type: 3}
       propertyPath: m_Pitch
-      value: 0.8303794
+      value: 0.36885867
       objectReference: {fileID: 0}
     - target: {fileID: 335920255713412125, guid: cba6236a3ca88a54081cc989c4f0c08a,
         type: 3}
       propertyPath: m_Volume
-      value: 0.95687574
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 335920255726230877, guid: cba6236a3ca88a54081cc989c4f0c08a,
         type: 3}
       propertyPath: m_Volume
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3327469829771100018, guid: cba6236a3ca88a54081cc989c4f0c08a,
         type: 3}

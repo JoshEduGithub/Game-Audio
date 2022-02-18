@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{47cabf7d-22b3-4e55-8618-e454936bfb01}">
+		<property name="assetPath">
+			<value>Downloadables/Minecraft/Enderman/Enderman_idle4.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.93181405895691605</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d678e118-0428-47bc-8422-77b7465eb4b6}</destination>
+		</relationship>
+	</object>
+</objects>

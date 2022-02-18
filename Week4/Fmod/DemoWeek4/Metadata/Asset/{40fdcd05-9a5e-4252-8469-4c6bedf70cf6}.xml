@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{40fdcd05-9a5e-4252-8469-4c6bedf70cf6}">
+		<property name="assetPath">
+			<value>Downloadables/Minecraft/CaveSounds/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d678e118-0428-47bc-8422-77b7465eb4b6}</destination>
+		</relationship>
+	</object>
+</objects>

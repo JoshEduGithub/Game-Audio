@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{27579817-64c7-43df-b76b-19915f8c2fba}">
+		<property name="assetPath">
+			<value>Downloadables/Creatures/Small/Sm_Creature_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.92800000000000005</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d678e118-0428-47bc-8422-77b7465eb4b6}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{baff48f5-ca8e-4aa3-b9bb-cbfcefd7c949}">
+		<property name="assetPath">
+			<value>Downloadables/Gun_Siren/Alarm_Siren/CarAlarm_03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1849999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d678e118-0428-47bc-8422-77b7465eb4b6}</destination>
+		</relationship>
+	</object>
+</objects>

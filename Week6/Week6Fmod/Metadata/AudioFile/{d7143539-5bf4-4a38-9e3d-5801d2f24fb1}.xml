@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d7143539-5bf4-4a38-9e3d-5801d2f24fb1}">
+		<property name="assetPath">
+			<value>Sounds/Robotic/257663-Mechanism_-Source_-Big_Robo_Chunck-01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.99733333333333329</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{57d937d1-16a0-49ac-a4ee-d5086543a020}</destination>
+		</relationship>
+	</object>
+</objects>
